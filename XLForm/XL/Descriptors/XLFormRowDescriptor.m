@@ -142,6 +142,11 @@
     _disabled = disabled;
 }
 
+- (void)setRowValue:(id)value
+{
+  _value = value;
+}
+
 // In the implementation
 -(id)copyWithZone:(NSZone *)zone
 {
